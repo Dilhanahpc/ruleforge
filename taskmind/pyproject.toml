@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskmind"
+version = "0.1.0"
+description = "A brief description of your library."
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
