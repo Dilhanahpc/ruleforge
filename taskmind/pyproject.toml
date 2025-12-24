@@ -1,13 +1,21 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "taskmind"
 version = "0.1.0"
-description = "A brief description of your library."
-authors = [
-    { name="Your Name", email="your.email@example.com" }
-]
-license = { file = "LICENSE" }
+description = "An intelligent rules engine with explainable decision logic."
 readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+
+authors = [
+    { name = "Chandupa Dilhana", email = "chandupadilhan04@gmail.com" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
